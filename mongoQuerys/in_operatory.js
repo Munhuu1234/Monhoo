@@ -1,0 +1,1 @@
+db.getCollection('users').find({ _id: { $in: [ ObjectId("5b0227fd970ab5291b6eac7e"),ObjectId("5b022ae5970ab5291b6eac85") ] } })

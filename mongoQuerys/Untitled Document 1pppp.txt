@@ -1,0 +1,12 @@
+DB_HOST=ds129146.mlab.com:29146/beeco
+DB_USER=devs
+DB_PASS=dev1.pts
+FB_HOST=https://beeco-156f5.firebaseio.com/
+
+REDIS_HOST=127.0.0.1
+REDIS_PORT=6379
+REDIS_PASS=
+
+
+
+
