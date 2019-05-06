@@ -1,0 +1,1 @@
+mongoexport --db beeco --collection ride_history --username devs --password 'Zn7{-`CYL+2uMbc5' --host rs-ds161556/ds161556-a0.mlab.com,ds161556-a1.mlab.com --port 61556 --query '{created_at:{$gte:ISODate("2018-09-01T00:00:00.000Z"),$lte:ISODate("2019-04-30T00:00:00.000Z")},passengers:{$exists:true, $not:{$size:0} } }' --fields '_id'  --out rid_sharing.json
